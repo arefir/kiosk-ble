@@ -1,10 +1,11 @@
 import express from "express";
 import dotenv from "dotenv";
+dotenv.config();
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import asyncHandler from "./middleware/asyncHandler.js";
 import bodyParser from "body-parser";
 
-dotenv.config();
+
 const PORT = process.env.PORT || 5555;
 
 const app = express();
