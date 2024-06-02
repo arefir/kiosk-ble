@@ -1,0 +1,20 @@
+{
+  "name": "kiosk-ble",
+  "version": "1.0.0",
+  "description": "Web app for ordering food in restaurants utilising vle",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "Ahmad Firdaus",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.2"
+  }
+}
