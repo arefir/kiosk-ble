@@ -9,7 +9,7 @@
     "start": "node server.js",
     "client": "cd front && npm run dev",
     "build": "concurrently \"npm install\" \"cd front && npm install\"",
-    "deploy": "concurrently \"npm run server\" \"npm run client\""
+    "deploy": "concurrently \"npm run client\" \"npm start\""
   },
   "author": "Ahmad Firdaus",
   "license": "MIT",
