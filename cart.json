@@ -1,0 +1,13 @@
+[
+  {
+    "description": "풍미 가득 칠리토마토소스 & 새우살이 쏙쏙 새우패티의 환성적인 만남!",
+    "id": 5,
+    "imageUrl": "/static/매장 및 메뉴 이미지/맘스터치 건대로데오점/버거/칠리새우버거.png",
+    "name": "칠리새우버거",
+    "price": 3800,
+    "setPrice": 6100,
+    "quantity": 0,
+    "setQuantity": 0,
+    "storeId": "1"
+  }
+]
