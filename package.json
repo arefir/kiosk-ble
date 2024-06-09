@@ -6,10 +6,7 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon server.js",
-    "start": "node server.js",
-    "client": "cd front && npm run dev",
-    "build": "concurrently \"npm install\" \"cd front && npm install\"",
-    "deploy": "concurrently \"npm run client\" \"npm start\""
+    "start": "node server.js"
   },
   "author": "Ahmad Firdaus",
   "license": "MIT",
