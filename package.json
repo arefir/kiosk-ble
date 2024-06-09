@@ -8,6 +8,7 @@
     "server": "nodemon server.js",
     "start": "node server.js",
     "client": "cd front/hci_kiosk/kiosk && npm run dev",
+    "build": "concurrently \"npm install\" \"cd front/hci_kiosk/kiosk && npm install\"",
     "deploy": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Ahmad Firdaus",
